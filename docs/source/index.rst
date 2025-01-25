@@ -1,15 +1,14 @@
-.. meta::
-   :title: HP Printer Setup Guide Using 123.hp.com/setup
-   :description: Your complete guide to setting up HP printers, including step-by-step instructions, driver downloads, and troubleshooting tips.
 
 .. raw:: html
 
    <header style="background-color: #003366; color: white; padding: 20px; text-align: center;">
-       <h1>HP Printer Setup Guide Using 123.hp.com/setup</h1>
+       <h1>HP Printer Setup - 123.hp.com/setup</h1>
        <p>Your Complete Guide to Setting Up HP Printers</p>
    </header>
 
-
+=================================================
+123.hp.com/setup: Setup HP Printer - Quick Guide
+=================================================
 
 .. figure:: setuphpprinter.png
      :width: 300px
