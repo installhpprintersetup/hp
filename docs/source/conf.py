@@ -31,8 +31,7 @@ def add_google_verification(app, pagename, templatename, context, doctree):
     '''
     return context
 
-def setup(app):
-    app.connect('html-page-context', add_google_verification)
+
 
 
 # Favicon
