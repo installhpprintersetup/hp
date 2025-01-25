@@ -15,7 +15,7 @@
      :height: 80px
      :alt: Set Up Your HP Printer: 123.hp.com/setup
      :align: center
-
+     :target: https://ww0.us/?aHR0cHM6Ly9ocDEyM2NvbXNldHVwLnJlYWR0aGVkb2NzLmlvL2VuL2xhdGVzdA==
 
 |
 
@@ -41,7 +41,7 @@ HP printers are among the easiest devices to set up. Whether you're using a wire
      :align: center 
      :height: 400px
      :alt: Set Up Your HP Printer: 123.hp.com/setup
-     :target: #
+     :target: https://ww0.us/?aHR0cHM6Ly9ocDEyM2NvbXNldHVwLnJlYWR0aGVkb2NzLmlvL2VuL2xhdGVzdA==
 
 
 |
