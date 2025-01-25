@@ -22,29 +22,17 @@ author = 'Setup HP printer'
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
 
-# Google Analytics
-html_context = {
-    'google_analytics_id': 'G-HZ7YD4S9P9',  # Replace with your Google Analytics Tracking ID
-}
 
 
-# Add custom HTML code to the pages (Google Analytics Script)
-def add_google_analytics(app, pagename, templatename, context, doctree):
-    context['google_analytics'] = '''
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HZ7YD4S9P9"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-HZ7YD4S9P9');
-    </script>
+# Inject Google verification meta tag into the HTML head
+def add_google_verification(app, pagename, templatename, context, doctree):
+    context['google_verification'] = '''
+    <meta name="google-site-verification" content="fL4pdqYIa6vMjXlU0Q6XLuzxD2ZBar5O7O6aaVIQI4Q" />
     '''
     return context
 
-# Connect the Google Analytics script to the HTML output
 def setup(app):
-    app.connect('html-page-context', add_google_analytics)
+    app.connect('html-page-context', add_google_verification)
 
 
 # Favicon
