@@ -1,60 +1,49 @@
-# -- Project information -----------------------------------------------------
-project = 'HP Printer Setup Guide'
-author = 'Your Name'
-release = '1.0'
+# Configuration file for the Sphinx documentation builder.
+# This file only contains a selection of the most common options.
+# For a full list see the documentation:
+# https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-# -- General configuration ---------------------------------------------------
 import os
 import sys
-sys.path.insert(0, os.path.abspath('.'))
 
-# Sphinx extensions to use
-extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon',
-    'sphinx.ext.viewcode',
-]
+# -- Path setup --------------------------------------------------------------
 
-# Path to templates
-templates_path = ['_templates']
+# If extensions or modules to document with autodoc are in another directory,
+# add these directories to sys.path here. If the directory is relative to the
+# documentation root, use os.path.abspath to make it absolute, like shown here.
+# sys.path.insert(0, os.path.abspath('../src'))  # Adjust as needed
 
-# Exclude patterns
-exclude_patterns = []
+# -- Project information -----------------------------------------------------
+
+project = 'Setup HP printer'
+copyright = '2025, Setup HP printer'
+author = 'Setup HP printer'
+
+# The full version, including alpha/beta/rc tags
+release = '1.0.0'
+
+# -- General configuration ---------------------------------------------------
+
+# Add any Sphinx extension module names here, as strings. 
+# These extensions are optional but useful for Read the Docs.
+
+
+# Add any paths that contain templates here, relative to this directory.
+# templates_path = ['_templates']
+
+# List of patterns, relative to source directory, that match files and
+# directories to ignore when looking for source files.
+# This pattern also affects html_static_path and html_extra_path.
+# exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
-html_theme = 'sphinx_rtd_theme'  # Use the Read the Docs default theme
 
-# Paths for static files (e.g., CSS, images)
-html_static_path = ['_static']
+# The theme to use for HTML and HTML Help pages.
+# Use the Read the Docs theme for better compatibility with Read the Docs.
+# html_theme = 'sphinx_rtd_theme'
 
-# Custom CSS file to apply custom styles
-html_css_files = ['_static/custom.css']
+# Add any paths that contain custom static files (such as style sheets)
+# here, relative to this directory. These files are copied after the built-in
+# static files, so a file named "default.css" will overwrite the built-in one.
+# html_static_path = ['_static']
 
-# -- Options for HTMLHelp output -------------------------------------------
-htmlhelp_basename = 'HPPrinterSetupGuide'
-
-# -- Options for LaTeX output ----------------------------------------------
-latex_documents = [
-    ('index', 'HPPrinterSetupGuide.tex', 'HP Printer Setup Guide Documentation',
-     'Your Name', 'manual'),
-]
-
-# -- Options for manual page output ---------------------------------------
-man_pages = [
-    ('index', 'hpprintersetupguide', 'HP Printer Setup Guide Documentation',
-     [author], 1)
-]
-
-# -- Options for Texinfo output --------------------------------------------
-texinfo_documents = [
-    ('index', 'HPPrinterSetupGuide', 'HP Printer Setup Guide Documentation',
-     author, 'HPPrinterSetupGuide', 'One line description of project.',
-     'Miscellaneous'),
-]
-
-# -- Options for ePub output ----------------------------------------------
-epub_title = project
-epub_author = author
-epub_publisher = author
-epub_identifier = 'http://example.com/HpPrinterSetupGuide'
-epub_exclude_files = ['search.html']
