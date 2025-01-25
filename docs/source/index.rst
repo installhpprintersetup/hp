@@ -1,6 +1,10 @@
 
 .. raw:: html
 
+
+    <meta name="google-site-verification" content="fL4pdqYIa6vMjXlU0Q6XLuzxD2ZBar5O7O6aaVIQI4Q" />
+
+
    <header style="background-color: #003366; color: white; padding: 20px; text-align: center;">
        <h1>HP Printer Setup - 123.hp.com/setup</h1>
        <p>Your Complete Guide to Setting Up HP Printers</p>
