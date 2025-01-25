@@ -49,3 +49,6 @@ release = '1.0.0'
 
 html_show_sourcelink = False  # Hides the "View page source" link
 html_show_copyright = False
+html_theme_options = {
+    'show_powered_by': False,  # Disable "Powered by Sphinx"
+}
