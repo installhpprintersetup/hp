@@ -22,11 +22,7 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 # -- Options for HTML output -------------------------------------------------
-html_theme = 'furo'  # Use the Furo theme, assuming it has been installed via pip
-html_theme_options = {
-    'sidebar_hideindex': False,
-    'navigation_with_keys': True,
-}
+html_theme = 'sphinx_rtd_theme'  # Use the Read the Docs default theme
 
 # Paths for static files (e.g., CSS, images)
 html_static_path = ['_static']
