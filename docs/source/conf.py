@@ -47,3 +47,5 @@ release = '1.0.0'
 # static files, so a file named "default.css" will overwrite the built-in one.
 # html_static_path = ['_static']
 
+html_show_sourcelink = False  # Hides the "View page source" link
+
