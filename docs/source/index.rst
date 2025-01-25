@@ -1,12 +1,18 @@
+.. meta::
+   :title: HP Printer Setup Guide Using 123.hp.com/setup
+   :description: Your complete guide to setting up HP printers, including step-by-step instructions, driver downloads, and troubleshooting tips.
+
 .. raw:: html
 
    <header style="background-color: #003366; color: white; padding: 20px; text-align: center;">
-       <h1>HP Printer Setup Guide</h1>
+       <h1>HP Printer Setup Guide Using 123.hp.com/setup</h1>
        <p>Your Complete Guide to Setting Up HP Printers</p>
    </header>
 
-123.hp.com/setup
-===============
+
+=================================================
+123.hp.com/setup: Setup HP Printer - Quick Guide
+=================================================
 
 .. figure:: setuphpprinter.png
      :width: 300px
@@ -16,6 +22,7 @@
 
 
 |
+
 
 Welcome to the HP Printer Setup Guide! This guide will help you easily set up and install your HP printer for both Mac and Windows systems. Follow the steps below for a hassle-free experience.
 
