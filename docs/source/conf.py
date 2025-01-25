@@ -22,6 +22,14 @@ author = 'Setup HP printer'
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
 
+# Google Analytics
+html_context = {
+    'google_analytics_id': 'G-HZ7YD4S9P9',  # Replace with your Google Analytics Tracking ID
+}
+
+# Favicon
+html_favicon = 'favicon.ico'
+
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. 
