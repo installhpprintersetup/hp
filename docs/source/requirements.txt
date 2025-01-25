@@ -1,0 +1,5 @@
+sphinx==5.0.0  # The version of Sphinx you want to use
+sphinx-rtd-theme==1.0.0  # Read the Docs theme
+furo==2021.11.1  # Optional: Furo theme (you can choose another theme)
+sphinx-autodoc-typehints==1.11.1  # Optional: Auto-generate documentation from docstrings
+sphinxcontrib-mermaid==0.7.2  # Optional: For generating mermaid diagrams in docs
