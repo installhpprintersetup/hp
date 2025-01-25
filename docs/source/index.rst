@@ -8,6 +8,15 @@
 123.hp.com/setup
 ===============
 
+.. figure:: setuphpprinter.png
+     :width: 300px
+     :height: 80px
+     :alt: Set Up Your HP Printer: 123.hp.com/setup
+     :align: center
+
+
+|
+
 Welcome to the HP Printer Setup Guide! This guide will help you easily set up and install your HP printer for both Mac and Windows systems. Follow the steps below for a hassle-free experience.
 
 .. contents::
