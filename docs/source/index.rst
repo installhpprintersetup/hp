@@ -24,7 +24,7 @@ HP printers are among the easiest devices to set up. Whether you're using a wire
 - Necessary cables (for wired/USB printers)
 
 
-.. image:: setup-printer.jpg
+.. image:: /source/_static/_images/setup-printer.jpg
      :width: 1000px    
      :align: center 
      :height: 500px
@@ -50,7 +50,7 @@ Follow these steps to download the HP printer driver on your Mac:
 9. Accept the terms and conditions when prompted.
 10. Follow the on-screen instructions to complete the setup.
 
-.. image:: setup-printer.jpg
+.. image:: _static/_images/setup-printer.jpg
      :width: 1000px    
      :align: center 
      :height: 500px
@@ -94,7 +94,7 @@ Here’s how you can set up your HP printer step by step:
 6. **Start Printing**:
    - Complete the setup and begin using your HP printer.
 
-.. image:: setup-printer.jpg
+.. image:: /_static/_images/setup-printer.jpg
      :width: 1000px    
      :align: center 
      :height: 500px
