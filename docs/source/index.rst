@@ -10,9 +10,6 @@
    </header>
 
 
-=================================================
-123.hp.com/setup: Setup HP Printer - Quick Guide
-=================================================
 
 .. figure:: setuphpprinter.png
      :width: 300px
